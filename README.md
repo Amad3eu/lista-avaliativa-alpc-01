@@ -1,7 +1,5 @@
 # Lista avaliativa :)))
 
-## Resolução de atividades voltadas para matéria de algoritmo e lógica de programação
-
 ### Exercicios
 
 Vamos analisar os pseudocódigos para determinar a consistência e o resultado de cada algoritmo:
