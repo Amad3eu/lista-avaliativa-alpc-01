@@ -9,12 +9,12 @@ area = 2 * math.pi * R**2 + 2 * math.pi * R * H
 
 # Calcula a quantidade de galões de tinta necessária (considerando 3 metros quadrados por litro)
 litros_tinta = area / 3
-galoes_tinta = litros_tinta / 3.6
+galoes_tinta = math.ceil(litros_tinta / 3.6)  # Arredonda para cima
 
 # Calcula o custo total da tinta (considerando R$40,00 por galão de 3,6 litros)
 custo_tinta = galoes_tinta * 40
 
 # Exibe os resultados
-print(f"Área a ser pintada: {area:.2f} metros quadrdos")
-print(f"Quntidade de galões de tinta necessária: {galoes_tinta:.2f}")
+print(f"Área a ser pintada: {area:.2f} metros quadrados")
+print(f"Quantidade de galões de tinta necessária: {galoes_tinta}")
 print(f"Custo total da tinta: R${custo_tinta:.2f}")
